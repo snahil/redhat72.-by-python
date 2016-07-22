@@ -6,6 +6,6 @@ print " Enter passward for the account  : "
 p=raw_input() 
 
 if u == 'root' and p == 'redhat' :
-	os.system('python /root/Desktop/lwp/menu.py')
+	os.system('python /root/Desktop/lwp/newmenu.py')
 else :
  	print" NOT AUTHORISED "

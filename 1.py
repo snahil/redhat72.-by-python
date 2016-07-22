@@ -3,8 +3,7 @@
 #GENERAL COMMANDS FOR LINUX USER
 
 import os
-
-print" PRESS 0 FOR :  For MAIN MENU " #+
+print "PRESS 0 FOR :  For MAIN MENU " #+
 print "PRESS 1 FOR :  OPENING SOFTWARES"#+
 print "PRESS 2 FOR :  INSTALING SOFTWARES"#+
 print "PRESS 3 FOR :  CREATING NEW FOLDER" #+
@@ -19,6 +18,9 @@ print "PRESS 11 FOR : POWER OFF THE SYSTEM"#+
 print "PRESS 12 FOR : REBOOT THE SYSTEM" #+
 
 x=raw_input('ENTER YOUR REQUIREMENTS  :    ')
+if x == '00 :
+	os.system('python /root/Desktop/lwp/readme.py')
+
 
 if x == '0' :
 	os.system('python /root/Desktop/lwp/menu.py')
